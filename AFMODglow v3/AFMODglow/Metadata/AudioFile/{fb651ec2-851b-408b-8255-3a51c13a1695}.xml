@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="AudioFile" id="{fb651ec2-851b-408b-8255-3a51c13a1695}">
+        <property name="assetPath">
+            <value>FX/Cerdo V2 3.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.40054421768707482</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{65ce9105-ee28-4d79-8912-bb1a0644b97c}</destination>
+        </relationship>
+    </object>
+</objects>
