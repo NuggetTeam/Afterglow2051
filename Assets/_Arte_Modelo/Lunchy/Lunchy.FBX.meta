@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: 6dee8009b96859d4fbb58647a8d66acb
+timeCreated: 1474595568
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Panther
+    100004: PantherHead
+    100006: PantherHeadBone001OrejaL
+    100008: PantherHeadBone002OreajRx
+    100010: PantherHeadBone003Hocico
+    100012: PantherLLegDelante1
+    100014: PantherLLegDelante2
+    100016: PantherLLegDelanteCollarbone
+    100018: PantherLLegDelantePalmDelante
+    100020: PantherLLegDelantePlatform
+    100022: PantherLLegDetras1
+    100024: PantherLLegDetras2
+    100026: PantherLLegDetrasPalmDetras
+    100028: PantherLLegDetrasPlatform
+    100030: PantherNeck
+    100032: PantherPelvis
+    100034: PantherRibcage
+    100036: PantherRLegDelante1
+    100038: PantherRLegDelante2
+    100040: PantherRLegDelantePalmDelante
+    100042: PantherRLegDelantePlatform
+    100044: PantherRLegDelanteShoulderblade
+    100046: PantherRLegDetras1
+    100048: PantherRLegDetras2
+    100050: PantherRLegDetrasPalmDeatras
+    100052: PantherRLegDetrasPlatform
+    100054: PantherSpine1
+    100056: PantherSpine2
+    100058: PantherTail1
+    100060: PantherTail2
+    100062: PantherTail3
+    100064: PantherTail4
+    100066: Plane002
+    100068: Lunchy
+    400000: //RootNode
+    400002: Panther
+    400004: PantherHead
+    400006: PantherHeadBone001OrejaL
+    400008: PantherHeadBone002OreajRx
+    400010: PantherHeadBone003Hocico
+    400012: PantherLLegDelante1
+    400014: PantherLLegDelante2
+    400016: PantherLLegDelanteCollarbone
+    400018: PantherLLegDelantePalmDelante
+    400020: PantherLLegDelantePlatform
+    400022: PantherLLegDetras1
+    400024: PantherLLegDetras2
+    400026: PantherLLegDetrasPalmDetras
+    400028: PantherLLegDetrasPlatform
+    400030: PantherNeck
+    400032: PantherPelvis
+    400034: PantherRibcage
+    400036: PantherRLegDelante1
+    400038: PantherRLegDelante2
+    400040: PantherRLegDelantePalmDelante
+    400042: PantherRLegDelantePlatform
+    400044: PantherRLegDelanteShoulderblade
+    400046: PantherRLegDetras1
+    400048: PantherRLegDetras2
+    400050: PantherRLegDetrasPalmDeatras
+    400052: PantherRLegDetrasPlatform
+    400054: PantherSpine1
+    400056: PantherSpine2
+    400058: PantherTail1
+    400060: PantherTail2
+    400062: PantherTail3
+    400064: PantherTail4
+    400066: Plane002
+    400068: Lunchy
+    4300000: Plane002
+    4300002: Lunchy
+    7400000: Lunchy_Andar
+    7400002: Lunchy_Correr
+    7400004: Lunchy_Idle
+    7400006: Lunchy_Oler
+    9500000: //RootNode
+    13700000: Plane002
+    13700002: Lunchy
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Lunchy_Andar
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLLegDelantePlatform
+        weight: 1
+      - path: PantherLLegDetrasPlatform
+        weight: 1
+      - path: PantherPelvis
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1/PantherLLegDetras2
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1/PantherLLegDetras2/PantherLLegDetrasPalmDetras
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1/PantherRLegDetras2
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1/PantherRLegDetras2/PantherRLegDetrasPalmDeatras
+        weight: 1
+      - path: PantherPelvis/PantherSpine1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1/PantherLLegDelante2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1/PantherLLegDelante2/PantherLLegDelantePalmDelante
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone001OrejaL
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone002OreajRx
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone003Hocico
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1/PantherRLegDelante2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1/PantherRLegDelante2/PantherRLegDelantePalmDelante
+        weight: 1
+      - path: PantherPelvis/PantherTail1
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2/PantherTail3
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2/PantherTail3/PantherTail4
+        weight: 1
+      - path: PantherRLegDelantePlatform
+        weight: 1
+      - path: PantherRLegDetrasPlatform
+        weight: 1
+      - path: Plane002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lunchy_Correr
+      takeName: Take 001
+      firstFrame: 320
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLLegDelantePlatform
+        weight: 1
+      - path: PantherLLegDetrasPlatform
+        weight: 1
+      - path: PantherPelvis
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1/PantherLLegDetras2
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1/PantherLLegDetras2/PantherLLegDetrasPalmDetras
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1/PantherRLegDetras2
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1/PantherRLegDetras2/PantherRLegDetrasPalmDeatras
+        weight: 1
+      - path: PantherPelvis/PantherSpine1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1/PantherLLegDelante2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1/PantherLLegDelante2/PantherLLegDelantePalmDelante
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone001OrejaL
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone002OreajRx
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone003Hocico
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1/PantherRLegDelante2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1/PantherRLegDelante2/PantherRLegDelantePalmDelante
+        weight: 1
+      - path: PantherPelvis/PantherTail1
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2/PantherTail3
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2/PantherTail3/PantherTail4
+        weight: 1
+      - path: PantherRLegDelantePlatform
+        weight: 1
+      - path: PantherRLegDetrasPlatform
+        weight: 1
+      - path: Plane002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lunchy_Idle
+      takeName: Take 001
+      firstFrame: 500
+      lastFrame: 530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Lunchy
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLLegDelantePlatform
+        weight: 1
+      - path: PantherLLegDetrasPlatform
+        weight: 1
+      - path: PantherPelvis
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1/PantherLLegDetras2
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1/PantherLLegDetras2/PantherLLegDetrasPalmDetras
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1/PantherRLegDetras2
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1/PantherRLegDetras2/PantherRLegDetrasPalmDeatras
+        weight: 1
+      - path: PantherPelvis/PantherSpine1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1/PantherLLegDelante2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1/PantherLLegDelante2/PantherLLegDelantePalmDelante
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone001OrejaL
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone002OreajRx
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone003Hocico
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1/PantherRLegDelante2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1/PantherRLegDelante2/PantherRLegDelantePalmDelante
+        weight: 1
+      - path: PantherPelvis/PantherTail1
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2/PantherTail3
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2/PantherTail3/PantherTail4
+        weight: 1
+      - path: PantherRLegDelantePlatform
+        weight: 1
+      - path: PantherRLegDetrasPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lunchy_Oler
+      takeName: Take 001
+      firstFrame: 530
+      lastFrame: 614
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Lunchy
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLLegDelantePlatform
+        weight: 1
+      - path: PantherLLegDetrasPlatform
+        weight: 1
+      - path: PantherPelvis
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1/PantherLLegDetras2
+        weight: 1
+      - path: PantherPelvis/PantherLLegDetras1/PantherLLegDetras2/PantherLLegDetrasPalmDetras
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1/PantherRLegDetras2
+        weight: 1
+      - path: PantherPelvis/PantherRLegDetras1/PantherRLegDetras2/PantherRLegDetrasPalmDeatras
+        weight: 1
+      - path: PantherPelvis/PantherSpine1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1/PantherLLegDelante2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherLLegDelanteCollarbone/PantherLLegDelante1/PantherLLegDelante2/PantherLLegDelantePalmDelante
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone001OrejaL
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone002OreajRx
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherNeck/PantherHead/PantherHeadBone003Hocico
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1/PantherRLegDelante2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherRibcage/PantherRLegDelanteShoulderblade/PantherRLegDelante1/PantherRLegDelante2/PantherRLegDelantePalmDelante
+        weight: 1
+      - path: PantherPelvis/PantherTail1
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2/PantherTail3
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2/PantherTail3/PantherTail4
+        weight: 1
+      - path: PantherRLegDelantePlatform
+        weight: 1
+      - path: PantherRLegDetrasPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

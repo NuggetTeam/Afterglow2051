@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="AudioFile" id="{3520ba3d-983b-4b3d-8613-690ecc694daf}">
+        <property name="assetPath">
+            <value>FX/Puerta corredera 2.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>3.1346938775510202</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{65ce9105-ee28-4d79-8912-bb1a0644b97c}</destination>
+        </relationship>
+    </object>
+</objects>
