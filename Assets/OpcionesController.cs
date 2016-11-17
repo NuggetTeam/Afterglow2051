@@ -4,11 +4,22 @@ using UnityEngine.UI;
 
 public class OpcionesController : MonoBehaviour {
 
+	public GameObject Opciones;
+
 	public Toggle toggleFullscreen;
 	public Dropdown DropdownResolution;
 	public Toggle toggleVsync;
+	public Toggle toggleAntialiasing;
+	public Toggle toggleAnisotropic;
 	public ToggleGroup toggleGroupAA;
 	public Slider sliderQuality;
+	public Slider sliderBrightness;
+	
+	public void Start(){
+		
+		Screen.lockCursor = false;
+		
+	}	
 	
 	public void FixedUpdate(){
 		
@@ -22,6 +33,14 @@ public class OpcionesController : MonoBehaviour {
 		DropdownResolution.value = GetResolution();
 		if(QualitySettings.vSyncCount < 1){toggleVsync.isOn = false;}
 		sliderQuality.value = ReturnQuality();
+		if(QualitySettings.antiAliasing < 1){toggleAntialiasing.isOn = false;}
+		
+	}
+	
+	public void _toggleOptions(){
+		
+		if(Opciones.activeSelf){ Opciones.SetActive(false); }
+		else{Opciones.SetActive(true);}
 		
 	}
 	
@@ -70,6 +89,36 @@ public class OpcionesController : MonoBehaviour {
 		
 	}	
 	
+	public void _Antialiasing(){
+		
+		if(toggleAntialiasing.isOn){
+			
+			QualitySettings.antiAliasing = 2;
+			
+		}
+		else{
+			
+			QualitySettings.antiAliasing = 0;
+			
+		}
+		
+	}
+	
+	public void _Anisotropic(){
+		
+		if(toggleAntialiasing.isOn){
+			
+			QualitySettings.anisotropicFiltering = AnisotropicFiltering.Enable;
+			
+		}
+		else{
+			
+			QualitySettings.anisotropicFiltering = AnisotropicFiltering.Disable;
+			
+		}
+		
+	}
+	
 	public void _Vsync(){
 		
 		if(toggleVsync.isOn){
@@ -114,6 +163,27 @@ public class OpcionesController : MonoBehaviour {
 		}
 		
 		return 0;
+		
+	}
+	
+	public void _ChangeBrightness(){
+		
+		float x = sliderBrightness.value;
+		
+		RenderSettings.ambientLight = new Color(x, x, x, 1f);
+				
+	}
+	
+	public void _UnPause(){
+		
+		Time.timeScale = 1;
+		
+		gameObject.SetActive(false);		
+	}
+	
+	public void _LoadScene(string scene){
+		
+		Application.LoadLevel(scene);
 		
 	}
 	
